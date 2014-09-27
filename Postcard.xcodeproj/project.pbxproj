@@ -13,6 +13,8 @@
 		4330FDF919D2AF430022B429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4330FDF819D2AF430022B429 /* Images.xcassets */; };
 		4330FDFC19D2AF430022B429 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4330FDFA19D2AF430022B429 /* LaunchScreen.xib */; };
 		4330FE0819D2AF430022B429 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4330FE0719D2AF430022B429 /* PostcardTests.swift */; };
+		438FC59819D350B600184562 /* tenerife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 438FC59719D350B600184562 /* tenerife.jpg */; };
+		438FC59A19D5010D00184562 /* Albert-Einstein-1879-1955-Physicist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 438FC59919D5010D00184562 /* Albert-Einstein-1879-1955-Physicist.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4330FE0119D2AF430022B429 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4330FE0619D2AF430022B429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4330FE0719D2AF430022B429 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		438FC59719D350B600184562 /* tenerife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tenerife.jpg; sourceTree = "<group>"; };
+		438FC59919D5010D00184562 /* Albert-Einstein-1879-1955-Physicist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Albert-Einstein-1879-1955-Physicist.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		4330FDEF19D2AF430022B429 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				438FC59919D5010D00184562 /* Albert-Einstein-1879-1955-Physicist.jpg */,
+				438FC59719D350B600184562 /* tenerife.jpg */,
 				4330FDF019D2AF430022B429 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4330FDF719D2AF430022B429 /* Main.storyboard in Resources */,
+				438FC59A19D5010D00184562 /* Albert-Einstein-1879-1955-Physicist.jpg in Resources */,
+				438FC59819D350B600184562 /* tenerife.jpg in Resources */,
 				4330FDFC19D2AF430022B429 /* LaunchScreen.xib in Resources */,
 				4330FDF919D2AF430022B429 /* Images.xcassets in Resources */,
 			);
@@ -405,6 +413,7 @@
 				4330FE0D19D2AF430022B429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4330FE0E19D2AF430022B429 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				4330FE1019D2AF430022B429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
